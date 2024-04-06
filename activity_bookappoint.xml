@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="110dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="SelectDate"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="552dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="256dp"
+        android:layout_height="63dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:text="Register"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textColorLink="#002696"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="722dp" />
+
+    <EditText
+        android:id="@+id/editTextAppFees"
+        android:layout_width="330dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Fees"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:text="Fees"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <EditText
+        android:id="@+id/edittextRegAddress"
+        android:layout_width="330dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:text="Address"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingEnd="10dp"
+        android:text="Apna HealthCare"
+        android:textColor="#C3D6BD"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:text="Book Appointenment"
+        android:textColor="#CDDC39"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editLoginUserName"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="77dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="256dp"
+        android:layout_height="63dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:text="Back"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textColorLink="#002696"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="812dp" />
+
+    <EditText
+        android:id="@+id/editTextAppContactNumber"
+        android:layout_width="330dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:text="ContactNumber"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <EditText
+        android:id="@+id/editLoginUserName"
+        android:layout_width="330dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:text="FullName"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="110dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="SelectTime"
+        android:textColor="#FFEB3B"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="04/04/2024"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:40"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back2"
+    >
+
+
+            <EditText
+                android:id="@+id/editTextAppFees"
+                android:layout_width="330dp"
+                android:layout_height="43dp"
+                android:drawableLeft="@drawable/ic_baseline_security_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:paddingLeft="24dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="10dp"
+                android:text="Confirm Password"
+                android:textColor="#FFEB3B"
+                android:textColorHighlight="#FFEB3B"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="468dp"
+                tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edittextRegAddress"
+        android:layout_width="330dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:text="Email"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingLeft="24dp"
+                android:paddingEnd="10dp"
+                android:text="24*7 HealthCare"
+                android:textColor="#C3D6BD"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="79dp"
+                tools:layout_editor_absoluteY="49dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingLeft="24dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="10dp"
+                android:text="Registration"
+                android:textColor="#CDDC39"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="125dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="256dp"
+                android:layout_height="63dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="24dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="10dp"
+                android:text="Register"
+                android:textColor="#FFEB3B"
+                android:textColorHighlight="#FFEB3B"
+                android:textColorLink="#002696"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="61dp"
+                tools:layout_editor_absoluteY="548dp" />
+
+    <TextView
+        android:id="@+id/textViewNewUser1"
+        android:layout_width="254dp"
+        android:layout_height="80dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="50dp"
+        android:paddingEnd="10dp"
+        android:text="Already have an account"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="622dp" />
+
+            <EditText
+                android:id="@+id/editTextAppContactNumber"
+                android:layout_width="330dp"
+                android:layout_height="43dp"
+                android:drawableLeft="@drawable/ic_baseline_security_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:paddingLeft="24dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="10dp"
+                android:text="Password"
+                android:textColor="#FFEB3B"
+                android:textColorHighlight="#FFEB3B"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="394dp" />
+
+    <EditText
+        android:id="@+id/editLoginUserName"
+        android:layout_width="330dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:text="UserName"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

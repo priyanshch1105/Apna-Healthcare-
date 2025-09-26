@@ -1,9 +1,9 @@
-1. Introduction
-1.1 Purpose
+<h1>1. Introduction</h1>
+<h3><br>1.1 Purpose</h3>
 
 The purpose of this document is to define the requirements for the APNA Healthcare Mental Health Application. This app will provide immediate access to mental health resources, appointment booking, survey-based problem analysis, wellness tips, and AI-driven chatbot support for users.
 
-1.2 Scope
+<h3>1.2 Scope</h3>
 
 APNA Healthcare is a mobile application designed to support individuals in managing their mental health. It will:
 
@@ -21,7 +21,7 @@ Store and analyze survey data to personalize recommendations.
 
 The app targets students, employees, and the general public facing mental health challenges.
 
-1.3 Definitions, Acronyms, and Abbreviations
+<h3>1.3 Definitions, Acronyms, and Abbreviations</h3>
 
 WHO – World Health Organization
 
@@ -31,7 +31,7 @@ Firebase – Google’s backend-as-a-service
 
 UI/UX – User Interface / User Experience
 
-1.4 References
+<h3>1.4 References</h3>
 
 WHO Mental Health Guidelines
 
@@ -39,12 +39,12 @@ National Library of Medicine (NIH)
 
 Firebase and Node.js Documentation
 
-2. Overall Description
-2.1 Product Perspective
+<h2>2. Overall Description</h2>
+<h3><br>2.1 Product Perspective</h3>
 
 APNA Healthcare will be a standalone mobile application developed with Flutter. It will connect to a Node.js + Firebase backend for data storage, authentication, and real-time services.
 
-System Architecture (High-Level):
+<h3>2.2.System Architecture (High-Level):</h3>
 
 Frontend (Mobile App): Flutter, Dart, Android Studio.
 
@@ -52,7 +52,7 @@ Backend: Node.js, Firebase.
 
 Services: AI chatbot, Appointment booking API, Push notifications.
 
-2.2 Product Functions
+<h3>2.2 Product Functions</h3>
 
 User Registration & Login (Firebase Auth).
 
@@ -68,7 +68,7 @@ TM Program support with videos, articles, and feedback forms.
 
 Feedback & Support system for continuous improvement.
 
-2.3 User Characteristics
+<h3>2.3 User Characteristics</h3>
 
 General Users: Students, employees, individuals seeking help.
 
@@ -76,7 +76,7 @@ Healthcare Providers: Therapists, doctors, TM coaches.
 
 Admin Team: Manages content, reviews feedback, and monitors app usage.
 
-2.4 Constraints
+<h3>2.4 Constraints</h3>
 
 Requires an active internet connection.
 
@@ -84,7 +84,7 @@ Users must create an account for personalized services.
 
 Data security and privacy compliance (HIPAA/GDPR if deployed globally).
 
-2.5 Assumptions and Dependencies
+<h3>2.5 Assumptions and Dependencies</h3>
 
 Users have smartphones with Android 8.0 or above.
 
@@ -92,58 +92,58 @@ Firebase services remain available and stable.
 
 WHO/NIH resources can be integrated via APIs or manual updates.
 
-3. Specific Requirements
-3.1 Functional Requirements
+<h2>3. Specific Requirements</h2>
+<h3>3.1 Functional Requirements</h3>
 
-User Authentication
+<h5>User Authentication</h5>
 
 Register/Login using email, phone, or Google sign-in.
 
 Store user profiles securely.
 
-Survey & Analysis
+<h5>Survey & Analysis</h5>
 
 Create survey forms for mental health assessment.
 
 Analyze responses and suggest resources.
 
-Healthcare Content
+<h5>Healthcare Content</h5>
 
 Display WHO & NIH verified health tips.
 
 Update content regularly.
 
-Appointment Booking
+<h5>Appointment Booking</h5>
 
 Search and book healthcare professionals.
 
 Support video/audio consultation.
 
-AI Chatbot
+<h5>AI Chatbot</h5>
 
 Respond to user queries.
 
 Provide links to relevant resources.
 
-TM Program Support
+<h5>TM Program Support</h5>
 
 Provide videos, guides, and articles.
 
 Collect user details for TM team.
 
-Wellness Section
+<h5>Wellness Section</h5>
 
 Meditation guides, stress-relief exercises, anxiety videos.
 
 Daily tips and motivational content.
 
-Feedback & Support Form
+<h5>Feedback & Support Form</h5>
 
 Allow users to submit issues or suggestions.
 
 Store feedback in Firebase for analysis.
 
-3.2 Non-Functional Requirements
+<h3>3.2 Non-Functional Requirements</h3>
 
 Performance: App should respond within 3 seconds for all major actions.
 
@@ -155,7 +155,7 @@ Usability: Simple UI/UX with accessibility features.
 
 Availability: 99.5% uptime.
 
-3.3 External Interface Requirements
+<h3>3.3 External Interface Requirements</h3>
 
 User Interface: Flutter UI with Material Design.
 
@@ -165,7 +165,7 @@ Software Interface: Firebase API, Node.js backend, Chatbot API.
 
 Communication Interface: HTTPS for all data transfer.
 
-4. Appendices
+<h2>4. Appendices</h2>
 
 Figma UI Screenshots (to be attached).
 
